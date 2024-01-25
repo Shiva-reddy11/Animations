@@ -8,29 +8,30 @@ span{
   font-size: 40px;
   font-family: sans-serif;
   animation-name: texanimation;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
   opacity: 0;
   text-align: center;
+  display: inline-block;
 }
 .container{
   margin: 150px; 
 }
 
 @keyframes texanimation {
- from {opacity: 0;
-transform: translate(-20px);
+ 0% {opacity: 0;
+transform: translateY(-20px);
 }
- to{
-    transform: translate(0px);
+ 100%{
+    transform: translateY(10px);
     opacity: 1;
  }
 }
 .child6{
-    animation-delay: 0.s;
+    animation-delay: 0.5s;
 }
-.chaild2{
-    animation-delay: 3s;
+.child2{
+    animation-delay: 1s;
 }
 .child3{
     animation-delay: 1.5s;
