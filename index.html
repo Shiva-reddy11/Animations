@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+span{
+  padding: 2px;
+  position: relative;
+  font-size: 40px;
+  font-family: sans-serif;
+  animation-name: texanimation;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  text-align: center;
+}
+.container{
+  margin: 150px; 
+}
+
+@keyframes texanimation {
+ from {opacity: 0;
+transform: translate(-20px);
+}
+ to{
+    transform: translate(0px);
+    opacity: 1;
+ }
+}
+.child6{
+    animation-delay: 0.s;
+}
+.chaild2{
+    animation-delay: 3s;
+}
+.child3{
+    animation-delay: 1.5s;
+}
+.child4{
+    animation-delay: 2s;
+}
+.child5{
+    animation-delay: 2.5s;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <span class="child6">S</span>
+    <span class="child2">h</span>
+    <span class="child3">i</span>
+    <span class="child4">v</span>
+    <span class="child5">a</span>
+</div>
+</body>
+</html>
